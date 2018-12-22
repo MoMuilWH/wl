@@ -67,4 +67,4 @@ def wolf():
 
 
 if __name__ == '__main__':
-    slam()
+    wolf()
