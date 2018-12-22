@@ -25,7 +25,7 @@ pass
 pass
 i = str(raw_input('eEnter Number >> :'))
 
-def slam():
+def wolf():
     for x in range(300):        
 	if i == '33':
 	 a = str(ran(33630000000,33630000000))
@@ -41,7 +41,7 @@ def slam():
         useragents = [
          ('Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0', 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1')]
 
-        def min():
+        def main():
             br = mechanize.Browser()
             cj = cookielib.LWPCookieJar()
             br.set_handle_robots(False)
@@ -63,7 +63,7 @@ def slam():
             else:
                 print '\x1b[1;32m' +  '			Account not found ): '
 
-        min()
+        main()
 
 
 if __name__ == '__main__':
